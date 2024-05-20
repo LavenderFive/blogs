@@ -1,0 +1,11 @@
+{ 
+  "id": 5,
+  "title": "title text"
+  "summary": "summary of blog"
+  "networks_active": ["seda"],
+  "networks_inactive": [],
+  "topics": ["banana"]
+  "content": "markdown as a string"
+  "author": "Ertemann"
+  "header_image": "5.png"
+}
