@@ -1,11 +1,11 @@
 { 
   "id": 3,
-  "title": "title text"
-  "summary": "summary of blog"
+  "title": "title text",
+  "summary": "summary of blog",
   "networks_active": ["seda"],
   "networks_inactive": [],
-  "topics": ["cosmos", "lavender.Five"]
-  "content": "markdown as a string"
-  "author": "Ertemann"
-  "header_image": "3.png"
+  "topics": ["cosmos", "lavender.Five"],
+  "content": "markdown as a string",
+  "author": "Ertemann",
+  "header_image": "https://github.com/LavenderFive/blogs/blob/aeae48648c9dcc76d3ca0981613a054d6d3e3c12/images/3.png"
 }

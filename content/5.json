@@ -1,11 +1,11 @@
 { 
   "id": 5,
-  "title": "title text"
-  "summary": "summary of blog"
+  "title": "title text",
+  "summary": "summary of blog",
   "networks_active": ["seda"],
   "networks_inactive": [],
-  "topics": ["banana"]
-  "content": "markdown as a string"
-  "author": "Ertemann"
-  "header_image": "5.png"
+  "topics": ["banana"],
+  "content": "markdown as a string",
+  "author": "Ertemann",
+  "header_image": "https://github.com/LavenderFive/blogs/blob/aeae48648c9dcc76d3ca0981613a054d6d3e3c12/images/5.png"
 }
