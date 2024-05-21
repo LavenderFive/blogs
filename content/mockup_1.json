@@ -1,0 +1,11 @@
+{ 
+  "id": 1,
+  "title": "title text",
+  "summary": "summary of blog",
+  "networks_active": ["cosmoshub"],
+  "networks_inactive": [],
+  "topics": ["cosmos", "staking", "roadmap"],
+  "content": "markdown as a string",
+  "author": "Ertemann",
+  "header_image": "https://raw.githubusercontent.com/LavenderFive/blogs/aeae48648c9dcc76d3ca0981613a054d6d3e3c12/images/1.png"
+}
