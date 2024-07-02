@@ -1,0 +1,12 @@
+{ 
+  "id": 1,
+  "title": "Understanding blockchain - IBC: The Inter-Blockchain Communication Protocol",
+  "summary": "Understand the highlights and evolution of the Inter-Blockchain Communication Protocol (IBC) and how it enables secure, trustless communication between blockchains, driving interoperability and advanced applications within the Cosmos ecosystem.",
+  "networks_active": ["cosmoshub"],
+  "networks_inactive": [],
+  "topics": ["cosmos", "staking", "roadmap"],
+  "creation_date": "2 July 2024",
+  "content": "https://raw.githubusercontent.com/LavenderFive/blogs/master/markdown/mockup.md",
+  "author": "Ertemann",
+  "header_image": "https://raw.githubusercontent.com/LavenderFive/blogs/aeae48648c9dcc76d3ca0981613a054d6d3e3c12/images/1.png"
+}
