@@ -12,7 +12,7 @@ IBC provides a standardized and trustless way for blockchains to communicate wit
 
 IBC remains Byzantine resistant thanks to the proof validation by the light client. If a relayer acts maliciously, the packet would be rejected by the counterparty chain because the proof would be invalid.
 
-![image_IBC_flow](Raw_file.com)
+![image_IBC_flow](https://github.com/LavenderFive/blogs/blob/master/images/blog/IBC_1.png?raw=true)
 
 ## How messages move between chains
 IBC is composed of two layers:
