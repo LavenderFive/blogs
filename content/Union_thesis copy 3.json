@@ -1,6 +1,6 @@
 { 
   "id": 1,
-  "title": "Thesis Tackle - Union: The interoperability hub of Web3",
+  "title": "Thesis Tackle - Union: The interoperability hub ",
   "summary": "The 5-minute thesis on Union, a Cosmos-like network focused on bridging all of Web3 using ZK-IBC. This blog details Union's technical innovations, execution strategy, and potential to revolutionize blockchain interoperability with fast, decentralized, and secure solutions.",
   "networks_active": ["cosmoshub"],
   "networks_inactive": [],
