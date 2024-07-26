@@ -1,12 +1,14 @@
 { 
   "id": 1,
-  "title": "Thesis Tackle - Union: The interoperability hub ",
-  "summary": "The 5-minute thesis on Union, a Cosmos-like network focused on bridging all of Web3 using ZK-IBC. This blog details Union's technical innovations, execution strategy, and potential to revolutionize blockchain interoperability with fast, decentralized, and secure solutions.",
+  "series": "Understanding blockchain",
+  "title": "The Inter-Blockchain Communication Protocol (IBC)",
+  "subtitle": "Trustless interoperability for the Cosmos ecosystem",
+  "summary": "Understand the highlights and evolution of the Inter-Blockchain Communication Protocol (IBC) and how it enables secure, trustless communication between blockchains, driving interoperability and advanced applications within the Cosmos ecosystem.",
   "networks_active": ["cosmoshub"],
   "networks_inactive": [],
-  "topics": ["cosmos", "staking", "roadmap"],
+  "topics": ["cosmos", "interoperability", "IBC"],
   "creation_date": "2 July 2024",
-  "content": "https://raw.githubusercontent.com/LavenderFive/blogs/master/markdown/Blog_240623_union.md",
+  "content": "https://raw.githubusercontent.com/LavenderFive/blogs/master/markdown/Blog_240622_IBC.md",
   "author": "Ertemann",
-  "header_image": "https://github.com/LavenderFive/blogs/blob/master/images/header/Union_header.png?raw=true"
+  "header_image": "https://github.com/LavenderFive/blogs/blob/master/images/header/IBC_header.png?raw=true"
 }
