@@ -1,7 +1,7 @@
 { 
   "id": 1,
   "series": "Understanding blockchain",
-  "title": "The Inter-Blockchain Communication Protocol (IBC)",
+  "title": "The Inter-Blockchain Communication Protocol (IBC)2",
   "subtitle": "Trustless interoperability for the Cosmos ecosystem",
   "summary": "Understand the highlights and evolution of the Inter-Blockchain Communication Protocol (IBC) and how it enables secure, trustless communication between blockchains, driving interoperability and advanced applications within the Cosmos ecosystem.",
   "networks_active": ["cosmoshub"],

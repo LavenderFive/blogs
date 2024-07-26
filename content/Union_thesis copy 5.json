@@ -1,7 +1,7 @@
 { 
   "id": 1,
   "series": "Thesis Tackle",
-  "title": "Union.build and ZK-IBC",
+  "title": "Union.build and ZK-IBC2",
   "subtitle": "The interoperability hub of web3",
   "summary": "The 5-minute thesis on Union, a Cosmos-like network focused on bridging all of Web3 using ZK-IBC. This blog details Union's technical innovations, execution strategy, and potential to revolutionize blockchain interoperability with fast, decentralized, and secure solutions.",
   "networks_active": ["cosmoshub"],
