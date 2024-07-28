@@ -1,5 +1,5 @@
 
-In this blog series we tackle the investment and technology thesis for one our partners at Lavender.Five Nodes so that you don't have to. It is a overview that will assume industry knowledge from the reader so we can move through material quickly. However, we provide extensive guidance along the way. Grab a cup of Coffee, set the timer to 5 minutes and learn about your favourite interoperabillity protocol Union - by @ertemann
+In this blog series we tackle the investment and technology thesis for one our partners at Lavender.Five Nodes so that you don't have to. It is a overview that will assume industry knowledge from the reader so we can move through material quickly. However, we provide extensive guidance along the way. Grab a cup of Coffee, set the timer to 5 minutes and learn about your favourite interoperabillity protocol Union.
 
 
 ## The overview
