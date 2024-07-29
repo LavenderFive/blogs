@@ -29,8 +29,10 @@ ICS-29 adds an optional tip the sender of the token can add to the IBC packet. T
 
 
 ## Composable contracts and accounts
+
 IBC allows for more than just fungible token transfers. It supports non-fungible token transfers, multi-chain smart contracts, interchain accounts (enabling interaction on a blockchain account from another source blockchain) and even interchain queries. Applications like Nolus, Secret Network, Quasar, DaoDao, TimeWave, Euclid protocol and many others are the first large users of these more complex composability apps on top of IBC. 
 <br/><br/>
+
 ----
-<br/><br/>
+
 IBC stands out in the landscape of interoperability protocols by providing a trust-minimized solution that relies solely on the security of the interconnected chains and the integrity of relayers. This approach ensures secure, standardized, and trustless communication between diverse blockchain networks, paving the way for a truly interconnected ecosystem.

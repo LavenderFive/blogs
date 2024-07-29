@@ -20,15 +20,15 @@ Union is a small team of (mainly) engineers tackling the interoperability proble
 
 Trying to solve a problem is one thing, actually bringing a sustainable product to market is another. Union has a large group of 6 co-founders and 5 of them can code, a true super team that is supplemented with a lean and strong operations and business duo that is raking in partnership after partnership. The engineering team is slowly growing so they can use the extra talent without stalling development progress completely. The engineering has just one north star, faster proofs without skipping on security, and the whole tech-stack is centered around exactly that. 
 <br/><br/>
-1. **CometBLS**
+1. <span class="bold">CometBLS</span>
 Every chain Union connects to will have to run a Union light-client, so where can they make most gains, by optimizing their own chain first. CometBLS has a reduced transaction size and on-chain computation cost in comparison to Tendermint and also makes ZKProofs of the consensus state significantly more efficient.
-2. **EPOCH based POS**
+2. <span class="bold">EPOCH based POS</span>
 By running the same validator set for an Epoch and rotating it every so often based on the adjusted stake weight Union reduces the number of light client updates needed for secure operation of the bridge which improves relayer profitability and thereby the experience for users.
-3. **Galois**
+3. <span class="bold">Galois</span>
 The Zero-Knowledge Consensus Proving system Union built is the core of the entire product. It utilizes the zk-SNARK library Gnark to perform consensus proofs of the Union CometBLS state within 7 seconds at an extremely low cost. This helps with censorship resistance, as close to any consumer laptop can run this process without issues, and helps with sustainability of the wider Union product; as relayers and provers don't need insane cloud clusters.
-4. **Relayer sustainability**
+4. <span class="bold">Relayer sustainability</span>
 Although voyager, the core relayer software for Union's IBC protocol, is a super important piece of the puzzle; even more important is the changes made to IBC by Union so that it becomes sustainable over time. No longer does a relayer pay gas fees to be left with nothing, Union allows for packet and later even light client update incentivisation to support the fast and long-term sustainable clearing of transfers in the system. Additionally users of Union IBC for extensive contract composability might opt into contracts for the support of their dedicated channels through Union themselves separating relayer incentivisation from only the # of processed packets.
-5. **Generating profit of IBC usage**
+5. <span class="bold">Generating profit of IBC usage</span>
 Although the details are still unknown it is expected Union will have the power to charge fees for its bridging protocol that go back to growing the Union protocol itself. Many investors would have dreamed to take a bet on IBC but this has never been really possible with networks like the Cosmos hub never fulfilling its promise as an IBC and fee generating hub. As a bridging hub the Union chain will navigate traffic not just between Ethereum and Cosmos but it will also serve the wider bridging needs of chains like Berachain, Polygon AggLayer and Scroll (through L2 conditional clients) driving potentially sky-high volumes through Union.
 
 ## The summary

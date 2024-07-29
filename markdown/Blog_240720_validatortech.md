@@ -13,6 +13,7 @@ All servers have gated access through hardware SSH authentication (yubikeys) and
 A validator node generally requires management of two different types of keys, the signing and the operator key. At lavender.Five we take incredible care to secure both types of keys and have them backed up for persistence of our validator identity into the future independent of external factors. As a basis we generate all keys locally to reduce exposure risk and only move them to the appropriate server/node as necessary. We use hardware keys to secure operator keys when possible (even adding this to the binary or delaying our launch if there is no genesis support), and multi-party compute remote-signing solutions (think SSV for Ethereum, or Horcrux for the Cosmos ecosystem) whenever possible for signing/consensus keys. 
 <br/><br/>
 Our key generation process is covered by an automation playbook (Ansible) which ensures proper handling and limits human error. The general process is as follows:
+<br/><br/>
 1. Generate respective keys on local machine
 2. Back up keys to local, encrypted, offline hard drive
 3. Back up keys to encrypted cloud 
@@ -42,12 +43,14 @@ Once the monitoring suites are built, we connect them to Pagerduty which notifie
 Additionally Lavender.Five has a security alerting mechanism which keeps us up to date on critical bugs in packages like Ubuntu, SSH, Nebula or even binaries of networks themselves which get passed to our security email - security@lavenderfive.com. We have seen this system payoff for us with the [recent zero-day exploit in SSH](https://terrapin-attack.com/) that we patched within 8 hours of release giving us time and resources to help other teams push notifications to their validators and infrastructure providers. 
 
 ## Upgrade procedure and maintenance
-As mentioned above Lavender.Five operates with a minimum of 2 nodes per network, these nodes are geographically- and provider- distributed. For example we’ll have one node in EU-WEST and one in US-EAST provided by OVHCloud and Latitude.sh. The purpose of this is always having a stable backup in case the primary node/validator should go down. This backup is an exact (or close to*) copy of the validator as possible such that failing over doesn’t result in poorer performance or adverse behavior.
+
+As mentioned above Lavender.Five operates with a minimum of 2 nodes per network, these nodes are geographically- and provider- distributed. For example we’ll have one node in EU-WEST and one in US-EAST provided by OVHCloud and Latitude.sh. The purpose of this is always having a stable backup in case the primary node/validator should go down. This backup is an exact (or close to) copy of the validator as possible such that failing over doesn’t result in poorer performance or adverse behavior.
 <br/><br/>
 This is important for our maintenance and upgrade procedure as we always upgrade the backup node first to ensure stability and prove the upgrade procedure. Once we’ve confirmed the upgrade was successful with the backup, we then upgrade the primary machine. This is why we can guarantee no downtime for scheduled maintenance and Soft-fork upgrades. Additionally we can ensure the same no-downtime policy for hard-fork style upgrades as we utilize our custom upgrade scheduling playbook to perform upgrades in-kind at the designated moment in time. This you can rely on us to be pre-signed on the upgrade block as one of the first validators every single time. The use of our tools also allows us to upgrade many networks at the same time giving our partners ultimate flexibility in the scheduling of their releases.
 <br/><br/>
 Just as with key management all upgrades are managed by our Ansible playbooks so they are repeatable and reduces risk of human error. In case of an errorous upgrade or other failure our 24/7 alerting will kick in and we will be able to manually perform the upgrade or in the worse case restore our validator from our own database snapshot service within minutes.
 <br/><br/>
------
-<br/><br/>
+
+----
+
 Lavender.Five Nodes operates at the highest standards for validator security and are in the process of getting ISO and SOC2 certified for our existing procedures. We have managed 3 years of active service on over 50 networks with little to no issues. We are confident in our setup and offer 100% downtime slash protection (through a rebate) to all of our delegators to further alleviate any concerns. We happily share our expertise with the community which is why you will find all our tooling available open-source on our [github](https://github.com/lavenderfive). Additionally we have helped many validators get their first start and are known for our quick response to other infrastructure providers in the discords of the 80+ networks we are working with. If you want to ask more questions about our process after reading this post, then don't hesitate to [get in contact](https://lavenderfive.com/#contact)!
