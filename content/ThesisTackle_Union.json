@@ -7,8 +7,8 @@
   "networks_active": ["union", "berachain"],
   "networks_inactive": [],
   "topics": ["cosmos", "IBC", "ZK", "interoperability"],
-  "creation_date": "2 July 2024",
-  "content": "https://raw.githubusercontent.com/LavenderFive/blogs/master/markdown/Blog_240623_union.md",
+  "creation_date": "8 July 2024",
+  "content": "https://raw.githubusercontent.com/LavenderFive/blogs/master/markdown/Blog_240708_union.md",
   "author": "Ertemann",
   "header_image": "https://github.com/LavenderFive/blogs/blob/master/images/header/Union_header.png?raw=true"
 }

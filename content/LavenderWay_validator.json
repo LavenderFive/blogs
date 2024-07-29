@@ -1,0 +1,14 @@
+{ 
+  "id": 1,
+  "series": "The Lavender way",
+  "title": "The architecture behind your stake",
+  "subtitle": "A deep dive into the tech-stack and security exposure of validators run by Lavender.Five Nodes",
+  "summary": "",
+  "networks_active": [""],
+  "networks_inactive": [],
+  "topics": [""],
+  "creation_date": "20 July 2024",
+  "content": "https://raw.githubusercontent.com/LavenderFive/blogs/master/markdown/Blog_240720_validatortech.md",
+  "author": "Ertemann",
+  "header_image": "https://github.com/LavenderFive/blogs/blob/master/images/header/"
+}
