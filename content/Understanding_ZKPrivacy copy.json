@@ -4,7 +4,7 @@
   "title": "ZK-Proof Privacy apps and the multi-asset Shielded Pool",
   "subtitle": "A venture into the significance of the Sapling circuit and the limitations of ZK-SNARKs",
   "summary": "Dive into the history of zero-knowledge proofs enabled privacy chains and the importance of the Sapling circuit for multi-asset shielded pools. ZK-SNARKs in blockchains like Penumbra, Namada, Aztec and Aleo enable new novel Apps for a secure and private web3.",
-  "networks_active": ["penumbra", "aleo", "namada", "aztec"],
+  "networks_active": ["penumbra", "aleo", "namada"], 
   "networks_inactive": [],
   "topics": ["ZK", "privacy"],
   "creation_date": "28 July 2024",
