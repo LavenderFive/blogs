@@ -1,14 +1,14 @@
 { 
   "id": 1,
   "series": "The Lavender way",
-  "title": "The architecture behind your stake",
+  "title": "The technology that secures your stake",
   "subtitle": "A deep dive into the tech-stack and security exposure of validators run by Lavender.Five Nodes",
-  "summary": "",
+  "summary": "Discover how our validation service ensures top-notch security and performance with robust infrastructure. From geographically distributed bare-metal servers and secure key management to comprehensive performance monitoring and automated maintenance, learn how we maintain optimal validator operations across 50+ networks, offering unparalleled reliability and protection for our delegators.",
   "networks_active": [""],
-  "networks_inactive": [],
-  "topics": [""],
+  "networks_inactive": ["bitscrunch"],
+  "topics": ["validation", "security", "Lavender.Five"],
   "creation_date": "20 July 2024",
   "content": "https://raw.githubusercontent.com/LavenderFive/blogs/master/markdown/Blog_240720_validatortech.md",
-  "author": "Ertemann",
-  "header_image": "https://github.com/LavenderFive/blogs/blob/master/images/header/"
+  "author": "Dylan Schultzie",
+  "header_image": "https://github.com/LavenderFive/blogs/blob/master/images/header/validator_header.png?raw=true"
 }
