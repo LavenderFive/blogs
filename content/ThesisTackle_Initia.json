@@ -1,0 +1,14 @@
+{ 
+  "id": 1,
+  "series": "Thesis Tackle",
+  "title": "Initia and Interwoven rollups",
+  "subtitle": "The stack that makes modular feel integrated",
+  "summary": "The 5-minute thesis on Initia - A network for Interwoven rollups. We dive into the technical innovations, execution strategy, and novel ideas that make Initia the best appchain platform to date.",
+  "networks_active": ["initia"],
+  "networks_inactive": [],
+  "topics": ["cosmos", "IBC", "modular", "rollups"],
+  "creation_date": "27 August 2024",
+  "content": "https://raw.githubusercontent.com/LavenderFive/blogs/master/markdown/Blog_240810_initia.md",
+  "author": "Ertemann",
+  "header_image": "https://github.com/LavenderFive/blogs/blob/master/images/header/Thesis_tackle_initia.png?raw=true"
+}
